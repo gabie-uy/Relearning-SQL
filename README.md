@@ -2,7 +2,8 @@
 
 ## SELECT
 
-*Files: 01_introduction.sql and 02_TheSelect.sql*
+[``🔗 01_introduction.sql``](https://github.com/gabizzle/Relearning-SQL/blob/126766164f6460c93ba90e3221050073ee7b2b14/01_introduction.sql)
+[``🔗 02_TheSelect.sql``](https://github.com/gabizzle/Relearning-SQL/blob/6dd74907a6f9beffdfb994e3535e837b6defd9ed/02_TheSelect.sql)
 
 - ``SELECT`` retrieves data from a database.
 - ``*`` asterisk means all columns.
@@ -22,7 +23,7 @@
 
 ## SELECT DISTINCT
 
-*Files: 03_StreamingWars.sql*
+[``🔗 03_StreamingWars.sql``](https://github.com/gabizzle/Relearning-SQL/blob/6dd74907a6f9beffdfb994e3535e837b6defd9ed/03_StreamingWars.sql)
 
 - ``DISTINCT`` is used to return just the unique values in a column, so no duplicates
 
@@ -42,7 +43,7 @@
 
 ## WHERE 
 
-*Files: 04_RottenTomatoes.sql*
+[``🔗 04_RottenTomatoes.sql``](https://github.com/gabizzle/Relearning-SQL/blob/6dd74907a6f9beffdfb994e3535e837b6defd9ed/04_RottenTomatoes.sql)
 
 - ``WHERE`` filters information based on a confidition
 - ``=`` equal to
@@ -70,7 +71,7 @@
 
 ## LIKE
 
-*File: 05_Like.sql*
+[``🔗 05_Like.sql``](https://github.com/gabizzle/Relearning-SQL/blob/6dd74907a6f9beffdfb994e3535e837b6defd9ed/05_Like.sql)
 
 - The ``LIKE`` operator can be used to search for a pattern in a column
 - The percentage sign ``%`` is a wildcard character that can be used with ``LIKE``
@@ -85,7 +86,7 @@
 
 ## BETWEEN
 
-*File: 06_GoldenAge.sql*
+[``🔗 06_GoldenAge.sql``](https://github.com/gabizzle/Relearning-SQL/blob/6dd74907a6f9beffdfb994e3535e837b6defd9ed/06_GoldenAge.sql)
 
 - The ``BETWEEN`` operator is used in a ``WHERE`` clause to filter the result set within a certain range
 - The range must be separated by an ``AND`` keyword
@@ -106,7 +107,7 @@
 
 ## ORDER BY
 
-*File: 07_OrderBy.sql*
+[``🔗 07_OrderBy.sql``](https://github.com/gabizzle/Relearning-SQL/blob/6dd74907a6f9beffdfb994e3535e837b6defd9ed/07_OrderBy.sql)
 
 - The ``ORDER BY`` statement sorts rows of data in ascending or descending order.
 - By default, this command sorts the data in ascending order.
@@ -125,7 +126,7 @@
 
 ### Short Summary
 
-*File: 08_NYCRestaurants.sql*
+[``🔗 08_NYCRestaurants.sql``](https://github.com/gabizzle/Relearning-SQL/blob/6dd74907a6f9beffdfb994e3535e837b6defd9ed/08_NYCRestaurants.sql)
 
 - ``SELECT`` selects data ``FROM`` a database.
 - ``SELECT *`` selects all the columns.
@@ -138,6 +139,8 @@
 
 ## COUNT
 
+[``🔗 09_MusicPlaylist.sql``](https://github.com/gabizzle/Relearning-SQL/blob/6dd74907a6f9beffdfb994e3535e837b6defd9ed/09_MusicPlaylist.sql)
+
 - The ``COUNT()`` function counts the number of rows
 
 ```ruby
@@ -149,7 +152,7 @@
 
 ## MIN( ) & MAX( )
 
-*File: 11_Old_&_New.sql*
+[``🔗 11_Old_&_New.sql``](https://github.com/gabizzle/Relearning-SQL/blob/6dd74907a6f9beffdfb994e3535e837b6defd9ed/11_Old_%26_New.sql)
 
 - ``MIN()`` and ``MAX()`` are exactly how they sound: they return the minimum and maximum value in a column, respectively
 
@@ -163,7 +166,7 @@
 
 ## SUM( )
 
-*File: 12_TotalPlaytime.sql*
+[``🔗 12_TotalPlaytime.sql``](https://github.com/gabizzle/Relearning-SQL/blob/6dd74907a6f9beffdfb994e3535e837b6defd9ed/12_TotalPlaytime.sql)
 
 - The ``SUM()`` aggregate function takes a column and returns the total sum of the values in it
 
@@ -174,7 +177,7 @@
 
 ## AVG( )
 
-*File: 13_BillboardHot100.sql*
+[``🔗 13_BillboardHot100.sql``](https://github.com/gabizzle/Relearning-SQL/blob/6dd74907a6f9beffdfb994e3535e837b6defd9ed/13_BillboardHot100.sql)
 
 - Use the ``AVG()`` function to calculate the average value of a column
 
@@ -185,7 +188,7 @@
 
 ## GROUP BY
 
-*File: 14_GroupBy.sql*
+[``🔗 14_GroupBy.sql``](https://github.com/gabizzle/Relearning-SQL/blob/6dd74907a6f9beffdfb994e3535e837b6defd9ed/14_GroupBy.sql)
 
 - The ``GROUP BY`` statement groups rows of data with the same values into buckets. 
 - It’s often used with aggregate functions to group the result by one or more columns.
@@ -202,7 +205,7 @@
 
 ### Short Summary
 
-*File: 15_VideoGames.sql*
+[``🔗 15_VideoGames.sql``](https://github.com/gabizzle/Relearning-SQL/blob/6dd74907a6f9beffdfb994e3535e837b6defd9ed/15_VideoGames.sql)
 
 - ``COUNT()`` returns the number of rows
 - ``MIN()`` returns the smallest value in a column
@@ -213,7 +216,7 @@
 
 ## CREATE TABLE
 
-*File: 16_CreateTable.sql*
+[``🔗 16_CreateTable.sql``](https://github.com/gabizzle/Relearning-SQL/blob/6dd74907a6f9beffdfb994e3535e837b6defd9ed/16_CreateTable.sql)
 
 - ``CREATE TABLE`` statement creates a brand new table in a database
 
@@ -240,7 +243,7 @@
 
 ## INSERT INTO
 
-*File: 17_InsertInto.sql*
+[``🔗 17_InsertInto.sql``](https://github.com/gabizzle/Relearning-SQL/blob/6dd74907a6f9beffdfb994e3535e837b6defd9ed/17_InsertInto.sql)
 
 - Use the ``INSERT`` statement to add a new row into a table
 
@@ -272,7 +275,7 @@ Example:
 
 ## ALTER TABLE
 
-*File: 18_AlterTable.sql*
+[``🔗 18_AlterTable.sql``](https://github.com/gabizzle/Relearning-SQL/blob/6dd74907a6f9beffdfb994e3535e837b6defd9ed/18_AlterTable.sql)
 
 - ``ALTER TABLE``/``ADD COLUMN`` statement adds a new column to an existing table
 
@@ -283,7 +286,7 @@ Example:
 
 ## UPDATE
 
-*File: 19_UpdateSet.sql*
+[``🔗 19_UpdateSet.sql``](https://github.com/gabizzle/Relearning-SQL/blob/6dd74907a6f9beffdfb994e3535e837b6defd9ed/19_UpdateSet.sql)
 
 - The ``UPDATE`` statement edits a row in a table.
 
@@ -299,7 +302,7 @@ Example:
 
 ## DELETE FROM
 
-*File: 20_DeleteFrom.sql*
+[``🔗 20_DeleteFrom.sql``](https://github.com/gabizzle/Relearning-SQL/blob/6dd74907a6f9beffdfb994e3535e837b6defd9ed/20_DeleteFrom.sql)
 
 - ``DELETE FROM`` statement removes one or more rows from a table
 
@@ -310,7 +313,7 @@ Example:
 
 ### Short Summary
 
-*File: 21_BFFs.sql*
+[``🔗 21_BFFs.sql``](https://github.com/gabizzle/Relearning-SQL/blob/6dd74907a6f9beffdfb994e3535e837b6defd9ed/21_BFFs.sql)
 
 - ``CREATE TABLE`` adds a new table
 - ``INSERT INTO`` adds a new row
